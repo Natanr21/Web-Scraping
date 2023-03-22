@@ -4,5 +4,5 @@ O projeto extrai da web informações requisitadas pela tabela Excel "commoditie
 
 Intruções:
 
-- Verifique o driver do navegador
+- Verifique o driver do navegador;
 - Verifique o caminho em que o arquivo "commodities.xlsx" foi salvo.
