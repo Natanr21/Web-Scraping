@@ -12,7 +12,7 @@ for linha in tabela.index:
     nav.get(link)
     preco = nav.find_element('xpath', '//*[@id="knowledge-currency__updatable-data-column"]/div[1]/div[2]/span[1]').get_attribute('data-value')
     preco = float(preco)
-    preco = round(preco, 2)  # Mostrar duas casas decimais
+    preco = round(preco, 2) 
     tabela.loc[linha, 'Preço Atual'] = preco
     
 
