@@ -2,7 +2,7 @@ from selenium import webdriver
 import pandas as pd
 
 nav = webdriver.Chrome()
-# Importar tabela de Commodities
+
 tabela = pd.read_excel('commodities.xlsx')
 tabela = tabela.drop(labels=0, axis=0)
 
